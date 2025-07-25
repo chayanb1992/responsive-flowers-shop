@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f5f8ff;
+  color: #555;
+}
+.logo {
+  width: 8.4rem;
+}
+.nav-list-item {
+  /* font-size: 18px; */
+  color: #8987a1;
+}
+.nav-list-item:hover {
+  /* font-weight: bold; */
+  color: #333;
+}
+.nav-list-item-cart {
+  /* font-size: 18px; */
+  color: #333;
+}
+.cart-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.active {
+  color: #333;
+  /* font-weight: bold; */
+}
