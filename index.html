@@ -17,23 +17,48 @@
   </head>
   <body>
     <header>
-      <div
-        class="flex justify-between max-w-[1140px] header-section ml-auto mr-auto pt-6 pb-6 pl-3 pr-3 items-center"
-      >
-        <img class="logo" src="images/logo.png" alt="Flowers shop logo" />
-        <nav class="nav">
-          <ul class="nav-list flex gap-12 aling-center text-lg font-semibold">
-            <li><a class="nav-list-item active" href="#">Home</a></li>
-            <li><a class="nav-list-item" href="#">Shop</a></li>
-            <li><a class="nav-list-item" href="#">About us</a></li>
-            <li>
-              <a class="nav-list-item-cart flex gap-2 items-center" href="#"
-                ><ion-icon class="cart-icon" name="cart-outline"></ion-icon>
-                Cart ($56)</a
-              >
-            </li>
-          </ul>
-        </nav>
+      <div class="wrapper ml-auto mr-auto pl-2 pr-2">
+        <div class="flex justify-between header-section pt-6 pb-6 items-center">
+          <img class="logo" src="images/logo.png" alt="Flowers shop logo" />
+          <nav class="nav">
+            <ul class="nav-list flex gap-12 aling-center text-lg font-semibold">
+              <li><a class="nav-list-item active" href="#">Home</a></li>
+              <li><a class="nav-list-item" href="#">Shop</a></li>
+              <li><a class="nav-list-item" href="#">About us</a></li>
+              <li>
+                <a class="nav-list-item-cart flex gap-2 items-center" href="#"
+                  ><ion-icon class="cart-icon" name="cart-outline"></ion-icon>
+                  Cart ($56)</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div
+          class="hero-section grid grid-cols-2 content-end gap-2 mt-60 mb-30"
+        >
+          <div class="hero-text-box grid grid-cols-1 content-end">
+            <h1
+              class="text-6xl font-semibold text-black leading-20 mb-6 font-serif"
+            >
+              ALWAYS <span class="text-orange-600">FRESH FLOWERS</span>
+            </h1>
+            <p class="text-xl leading-7">
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh flowers that are perfect for any occasion.
+            </p>
+          </div>
+          <div class="hero-image-box">
+            <figure>
+              <img
+                class="w-full"
+                src="images/hero-flower.png"
+                alt="Hero image"
+              />
+            </figure>
+          </div>
+        </div>
       </div>
     </header>
     <main></main>

@@ -4,6 +4,9 @@ body {
   background-color: #f5f8ff;
   color: #555;
 }
+.wrapper {
+  max-width: 1140px;
+}
 .logo {
   width: 8.4rem;
 }
