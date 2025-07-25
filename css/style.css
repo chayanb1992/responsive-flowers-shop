@@ -51,3 +51,9 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
     url("../images/deal-zabo.png");
 }
+
+.join-section {
+  height: 33.3rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05)),
+    url(../images/news-letter-bg.png);
+}
