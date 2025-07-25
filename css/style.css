@@ -33,3 +33,21 @@ body {
 .card {
   box-shadow: 0 2px 6px rgba(180, 180, 180, 0.5);
 }
+
+.latest-image-box {
+  grid-template-columns: 1fr 2fr;
+}
+.bloom-flower {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url("../images/deal-bloom.png");
+}
+.ana-flower {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url("../images/deal-ana.png");
+}
+
+.zabo-flower {
+  height: 26.44rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url("../images/deal-zabo.png");
+}
