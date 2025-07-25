@@ -24,22 +24,18 @@
             <ul class="nav-list flex gap-12 aling-center text-lg font-semibold">
               <li>
                 <a
-                  class="nav-list-item active hidden sm:hidden md:block lg:block"
+                  class="nav-list-item active hidden sm:hidden md:block"
                   href="#"
                   >Home</a
                 >
               </li>
               <li>
-                <a
-                  class="nav-list-item hidden sm:hidden md:block lg:block"
-                  href="#"
+                <a class="nav-list-item hidden sm:hidden md:block" href="#"
                   >Shop</a
                 >
               </li>
               <li>
-                <a
-                  class="nav-list-item hidden sm:hidden md:block lg:block"
-                  href="#"
+                <a class="nav-list-item hidden sm:hidden md:block" href="#"
                   >About us</a
                 >
               </li>
@@ -53,11 +49,13 @@
           </nav>
         </div>
         <div
-          class="hero-section grid grid-cols-2 content-end gap-2 mt-60 mb-30"
+          class="hero-section grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 content-end gap-2 mt-60 mb-30"
         >
-          <div class="hero-text-box grid grid-cols-1 content-end">
+          <div
+            class="hero-text-box grid grid-cols-1 content-end order-2 sm:order-2 md:order-1"
+          >
             <h1
-              class="text-6xl font-semibold text-black leading-20 mb-6 font-serif"
+              class="text-5xl md:text-6xl font-semibold text-black leading-20 mb-6 font-serif"
             >
               ALWAYS <span class="text-orange-600">FRESH FLOWERS</span>
             </h1>
@@ -67,7 +65,7 @@
               variety of fresh flowers that are perfect for any occasion.
             </p>
           </div>
-          <div class="hero-image-box">
+          <div class="hero-image-box order-1 sm:order-1 md:order-2">
             <figure>
               <img
                 class="w-full"
